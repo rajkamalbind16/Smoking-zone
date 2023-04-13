@@ -4,6 +4,7 @@
 }
 .mySwiper{
     width: 100%;
+    height: 650px;
 }
 
 .myIMG{
@@ -20,8 +21,8 @@
     color: white;
 
     position: absolute;
-    top: 200px;
-    right: 200px;
+    top: 150px;
+    right: 250px;
 }
 
 #title{
@@ -44,9 +45,7 @@ font-size: 20px;
     background-color: #28FFBF;
 
 }
-#arrow{
 
-}
 #videoLogo{
 font-size: 40px;
 border-radius: 50%;
@@ -69,3 +68,64 @@ font-weight: bolder;
 position: relative;
 left: 20px;
 }
+
+
+
+/* Styles for mobile devices and laptops/desktops */
+@media screen and (max-width: 600px) {
+    .mySwiper{
+        width: 100%;
+        height: 650px;
+    }
+    .myIMG{
+
+        width: 100%;
+        height: 650px;
+    }
+    .textOnImg{
+        height: 300px;
+        width: 60%;
+        text-align: center;
+        z-index: 5;
+        color: white;
+    
+        position: absolute;
+        top: 200px;
+        right: 100px;
+    }
+    #title{
+        font-size: 20px;
+        }
+        #Subtitle{
+        font-size: 40px;
+        }
+        
+        #discrib{
+        font-size: 10px;
+        }
+        
+  }
+  
+  @media screen and (min-width: 601px) {
+    .textOnImg{
+        height: 450px;
+        width: 60%;
+        text-align: center;
+        z-index: 5;
+        color: white;
+    
+        
+    }
+    #title{
+        font-size: 30px;
+        }
+        #Subtitle{
+        font-size: 60px;
+        }
+        
+        #discrib{
+        font-size: 20px;
+        }
+    
+  }
+  

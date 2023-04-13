@@ -1,0 +1,103 @@
+.cardContainer{
+    width: 100%;
+    height: auto;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+  background-color: black;
+
+
+    
+}
+
+.itemCart{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    padding: 10px 15px;
+    background-color: rgba(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: rgb(252, 252, 252) 0px 3px 8px;
+
+    
+
+}
+
+.mypics{
+    height: 150px;
+    width: 150px;
+}
+
+#heading{
+    font-size: 60px;
+    color: rgb(252, 250, 250);
+    text-align: center;
+    background-color: black;
+    
+}
+.textDetails{
+    line-height: 1.4;
+}
+
+#itemname{
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#price{
+font-size: 25px;
+}
+
+.star{
+    color: gold;
+}
+
+#buynow{
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+}
+#buynow:hover{
+    transition: 0.5s;
+    transform: scaleX(1.1);
+    background-color: black;
+    color: gold
+}
+
+
+/* Styles for mobile devices and laptops/desktops */
+@media screen and (max-width: 600px) {
+    .cardContainer{
+        width: 100%;
+        height: auto;
+        display: grid;
+      grid-template-columns: auto auto ;
+      justify-content: space-around;
+      background-color: black;
+    
+    
+        
+    }
+    .itemCart{
+        width: 150px;
+        height: 400px;
+        margin: 5px;
+        padding: 10px 15px;
+        background-color: rgba(255, 255, 255);
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+        box-shadow: rgb(252, 252, 252) 0px 3px 8px;
+    
+        
+    
+    }
+    
+  }
+  
+  @media screen and (min-width: 601px) {
+    /* Styles for laptops/desktops */
+    /* ... Your CSS styles for laptops/desktops here ... */
+  }
+  

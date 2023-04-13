@@ -15,7 +15,6 @@ import juice from '../Img/juice.jpg';
 import device from '../Img/device.jpg';
 import access from '../Img/accesories.jpg';
 import starter from '../Img/starter.jpg';
-import Footer from '../footer/Footer';
 const Btn = styled('Button')`
   color: black;
   background-color: aqua;

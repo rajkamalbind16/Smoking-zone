@@ -1,6 +1,6 @@
 .mainprod{
     background-color: black;
-    height: 500vh;
+    height: 200vh;
 }
 .myprod{
   
@@ -38,23 +38,22 @@
 .prod1 h2{
     margin-left: 70px;
 }
+.myprod2{
+    text-align: center;
+    margin: 30px;
+}
+
 .myprod2 h1{
   color: aqua;
-  margin-left: 600px;
-  margin-top: 200px;
 }
 .myprod2 h2{
     color: white;
 
-    margin-left: 350px;
     font-size: 60px;
-    margin-top: -20px;   
     
 }
 .myprod2 p{
     color: gray;
-    margin-left: 350px;
-    margin-top: -30px;   
 }
 .vapecard{
     display: flex;
@@ -63,3 +62,25 @@
     margin-right: 50px;
     
 }
+
+
+
+/* Styles for mobile devices and laptops/desktops */
+@media screen and (max-width: 600px) {
+    .mainprod{
+        background-color: black;
+        height: 350vh;
+    }
+    .vapecard{
+        display: block;
+        justify-content: space-between;
+text-align: center;        
+    }
+    
+  }
+  
+  @media screen and (min-width: 601px) {
+    /* Styles for laptops/desktops */
+    /* ... Your CSS styles for laptops/desktops here ... */
+  }
+  

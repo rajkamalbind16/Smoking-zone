@@ -1,10 +1,12 @@
 import React from 'react';
 import './Navbar.css';
-
+import { Link } from 'react-router-dom';
 import logo from './photo/logo.png';
 import {BsSearch} from 'react-icons/bs';
 
 const Navbar = () => {
+
+  
   return (
     <>
     <div className='mainContainer'>
@@ -15,7 +17,7 @@ const Navbar = () => {
             <li className='link'>HOME</li>
             <li className='link'>ABOUT US</li>
             <li className='link'>FEATURES</li>
-            <li className='link'>PAGES</li>
+            <li className='link'><Link to='/products' style={{textDecoration:'none',color:'white'}} >PRODUCTS</Link> </li>
             <li className='link'>BLOG</li>
             <li className='link'>CONTACT</li>
             <li className='link'><BsSearch id='search'/></li>
@@ -24,6 +26,9 @@ const Navbar = () => {
             <button id='myBtn'>CONTACT US</button>
         </div>
     
+
+
+       
     </div>
     </>
   )
