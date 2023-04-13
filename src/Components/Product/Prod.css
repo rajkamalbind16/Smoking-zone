@@ -1,0 +1,65 @@
+.mainprod{
+    background-color: black;
+    height: 500vh;
+}
+.myprod{
+  
+    display: flex;
+    padding-left: 150px;
+}
+.subsec1 h3{
+    color: aqua;
+    margin-top: 80px;
+}
+.subsec1 h1{
+    color: white;
+}
+.subsec1 p{
+    color: gray;
+}
+
+.prod1{
+    margin-top: 80px;
+    border: 1px solid;
+    background-color: rgba(82, 79, 79, 0.664);
+   margin-left: 50px;
+   height: 400px;
+   border-radius: 16px;
+   width: 270px;
+}
+.prod1 img{
+    height: 300px;
+    margin-top: -80px;
+    margin-left: 50px
+}
+.prod1 h3{
+    margin-left: 50px;
+}
+.prod1 h2{
+    margin-left: 70px;
+}
+.myprod2 h1{
+  color: aqua;
+  margin-left: 600px;
+  margin-top: 200px;
+}
+.myprod2 h2{
+    color: white;
+
+    margin-left: 350px;
+    font-size: 60px;
+    margin-top: -20px;   
+    
+}
+.myprod2 p{
+    color: gray;
+    margin-left: 350px;
+    margin-top: -30px;   
+}
+.vapecard{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
